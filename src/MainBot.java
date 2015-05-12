@@ -1,9 +1,12 @@
 
-public class helloWorld {
+public class MainBot {
 
 	/**
 	 * @param args
+	 * 
 	 */
+	
+	/*TEEEEST*/
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		System.out.println("Hello World!");
