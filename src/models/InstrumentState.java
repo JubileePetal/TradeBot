@@ -156,7 +156,7 @@ public class InstrumentState {
 		
 		double sellTop;
 		
-		if(marketData.sellLevels.isEmpty()){
+		if(!marketData.sellLevels.isEmpty()){
 			sellTop = marketData.sellLevels.get(0).getPrice();
 		
 		}else{
@@ -171,7 +171,7 @@ public class InstrumentState {
 		
 		double buyTop;
 		
-		if(marketData.getBuyLevels().isEmpty()){
+		if(!marketData.getBuyLevels().isEmpty()){
 			buyTop = marketData.getBuyLevels().get(0).getPrice();
 			
 		

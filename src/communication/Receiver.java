@@ -78,7 +78,7 @@ public class Receiver implements Runnable {
 		
 		Instrument[] instruments = gson.fromJson(instrumentsAndMD[0], Instrument[].class);
 		dataHolder.setInstruments(instruments);
-		Bot bot = new Bot(dataHolder);
+		Bot bot = new Bot(dataHolder, controller);
 		//dataHolder.loggedIn();
 	
 
