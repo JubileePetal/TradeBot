@@ -15,7 +15,7 @@ import models.Order;
 
 public class Bot implements Runnable{
 
-	private static double DEFAULT_PRICE = 100.0;
+	private static double DEFAULT_PRICE = 1100.0;
 	private DataHolder dataHolder;
 	private Controller controller;
 	private ArrayList<String> instrumentNames;

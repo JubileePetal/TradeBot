@@ -23,7 +23,6 @@ public class BotTest {
 		
 	}
 	
-	
 	@Test
 	public void testRandInt() {
 		
