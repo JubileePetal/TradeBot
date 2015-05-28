@@ -36,7 +36,7 @@ public class Bot implements Runnable{
 	@Override
 	public void run() {
 		
-		int counter = 1000;
+		int counter = 2000;
 		while(counter > 0){
 			int randomIndex 		= 0; /** randInt(0,nrOfInstruments-1); */
 			String instrumentName 	= instrumentNames.get(randomIndex);
@@ -116,7 +116,7 @@ public class Bot implements Runnable{
 
 	public Order generateNewOrder(double randomPrice, int type, Instrument inst) {
 		
-		int randomQuantity		= randInt(10,50);
+		int randomQuantity		= randInt(500,1000);
 		
 		Order order = new Order();
 		order.setPrice(randomPrice);
